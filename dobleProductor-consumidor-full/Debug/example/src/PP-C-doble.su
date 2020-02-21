@@ -1,0 +1,5 @@
+PP-C-doble.c:23:13:prvSetupHardware	8	static
+PP-C-doble.c:33:14:temperatureGenerator	24	static
+PP-C-doble.c:56:13:stringGenerator	96	static
+PP-C-doble.c:101:13:consumidor	32	static
+PP-C-doble.c:133:5:main	24	static
