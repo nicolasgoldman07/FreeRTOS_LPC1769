@@ -1,4 +1,5 @@
-freertos/src/queue.o freertos/src/queue.d: ../freertos/src/queue.c \
+example/src/trcKernelPort.o example/src/trcKernelPort.d: \
+ ../example/src/trcKernelPort.c \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/FreeRTOS.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/projdefs.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/FreeRTOSConfig.h \

@@ -1,7 +1,8 @@
-freertos/src/queue.o freertos/src/queue.d: ../freertos/src/queue.c \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/FreeRTOS.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/projdefs.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/FreeRTOSConfig.h \
+example/src/trcStreamingRecorder.o example/src/trcStreamingRecorder.d: \
+ ../example/src/trcStreamingRecorder.c \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcRecorder.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcConfig.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcPortDefines.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/board.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_chip_175x_6x/inc/chip.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_chip_175x_6x/inc/lpc_types.h \
@@ -44,24 +45,22 @@ freertos/src/queue.o freertos/src/queue.d: ../freertos/src/queue.c \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_chip_175x_6x/inc/lpc_types.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/lpc_phy.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/board.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcRecorder.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcConfig.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcPortDefines.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcSnapshotConfig.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcHardwarePort.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcKernelPort.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/FreeRTOS.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/projdefs.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/FreeRTOSConfig.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcRecorder.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/portable.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/portmacro.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/mpu_wrappers.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/task.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/list.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/queue.h
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/mpu_wrappers.h
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/FreeRTOS.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcRecorder.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/projdefs.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcConfig.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/FreeRTOSConfig.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcPortDefines.h:
 
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/board.h:
 
@@ -147,26 +146,22 @@ freertos/src/queue.o freertos/src/queue.d: ../freertos/src/queue.c \
 
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/board.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcRecorder.h:
-
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcConfig.h:
-
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcPortDefines.h:
-
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcSnapshotConfig.h:
 
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcHardwarePort.h:
 
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcKernelPort.h:
 
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/FreeRTOS.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/projdefs.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/FreeRTOSConfig.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcRecorder.h:
+
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/portable.h:
 
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/portmacro.h:
 
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/mpu_wrappers.h:
-
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/task.h:
-
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/list.h:
-
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/queue.h:

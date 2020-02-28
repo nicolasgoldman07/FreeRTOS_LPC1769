@@ -1,7 +1,7 @@
 freertos/src/port.o freertos/src/port.d: ../freertos/src/port.c \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/FreeRTOS.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/projdefs.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/example/inc/FreeRTOSConfig.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/FreeRTOS.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/projdefs.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/FreeRTOSConfig.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/board.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_chip_175x_6x/inc/chip.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_chip_175x_6x/inc/lpc_types.h \
@@ -44,17 +44,23 @@ freertos/src/port.o freertos/src/port.d: ../freertos/src/port.c \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_chip_175x_6x/inc/lpc_types.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/lpc_phy.h \
  /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/board.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/portable.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/portmacro.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/mpu_wrappers.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/task.h \
- /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/list.h
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcRecorder.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcConfig.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcPortDefines.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcSnapshotConfig.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcHardwarePort.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcKernelPort.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/portable.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/portmacro.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/mpu_wrappers.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/task.h \
+ /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/list.h
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/FreeRTOS.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/FreeRTOS.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/projdefs.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/projdefs.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/example/inc/FreeRTOSConfig.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/FreeRTOSConfig.h:
 
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/board.h:
 
@@ -140,12 +146,24 @@ freertos/src/port.o freertos/src/port.d: ../freertos/src/port.c \
 
 /home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/lpc_board_nxp_lpcxpresso_1769/inc/board.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/portable.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcRecorder.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/portmacro.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcConfig.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/mpu_wrappers.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcPortDefines.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/task.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcSnapshotConfig.h:
 
-/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/lpcopen_2_10_lpcxpresso_nxp_lpcxpresso_1769.zip_expanded/freertos_blinky/freertos/inc/list.h:
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcHardwarePort.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/example/inc/trcKernelPort.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/portable.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/portmacro.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/mpu_wrappers.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/task.h:
+
+/home/nico/Documents/MCUXpresso_11.1.0_3209/workspace/productor-consumidor-simple/freertos/inc/list.h:

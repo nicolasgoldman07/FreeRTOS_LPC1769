@@ -28,29 +28,29 @@ static void producer(void *pvParameters) {
 
 		index++;
 
-		printf("P -> %s\r\n", sharedBuffer);
+		printf("P%s\r\n", sharedBuffer);
 
-		vTaskDelay(configTICK_RATE_HZ);
-
+		//vTaskDelay(configTICK_RATE_HZ);
+		vTaskDelay(30/portTICK_RATE_MS);
 	}
 }
 
-/* Consumer Thread */
+/* CONSUMIDOR */
 static void consumer(void *pvParameters) {
 
 	while (1) {
 
-		sharedBuffer[strlen(sharedBuffer)-1] = '\0';
-		sharedBuffer[strlen(sharedBuffer)-2] = '\0';
-		sharedBuffer[strlen(sharedBuffer)-3] = '\0';
+		memset(sharedBuffer,'\0',sizeof(sharedBuffer));
 
-		printf("C -> %s\r\n", sharedBuffer);
+
+		printf("C%s\r\n", sharedBuffer);
 
 		/* About a 3s delay here */
-		vTaskDelay(3*configTICK_RATE_HZ);
+		//vTaskDelay(3*configTICK_RATE_HZ);
 
 		/* About a 1Hz period */
 		//vTaskDelay(80 / portTICK_RATE_MS);
+		vTaskDelay(40/portTICK_RATE_MS);
 	}
 }
 
@@ -61,17 +61,18 @@ static void consumer(void *pvParameters) {
 
 int main(void)
 {
-
+	vTraceEnable(TRC_START);
 	prvSetupHardware();
-
-	/* sharedBuffer producer thread */
-	xTaskCreate(producer, (signed char *) "vTaskP1",
-				configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 1UL),
-				(xTaskHandle *) NULL);
 
 	/* sharedBuffer consumer thread */
 	xTaskCreate(consumer, (signed char *) "vTaskC1",
-				configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 1UL),
+					configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 1UL),
+					(xTaskHandle *) NULL);
+
+
+	/* sharedBuffer producer thread */
+	xTaskCreate(producer, (signed char *) "vTaskP1",
+				configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 2UL),
 				(xTaskHandle *) NULL);
 
 

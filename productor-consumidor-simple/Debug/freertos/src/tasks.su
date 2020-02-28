@@ -1,9 +1,9 @@
 tasks.c:479:22:xTaskGenericCreate	48	static
-tasks.c:635:7:vTaskDelete	24	static
+tasks.c:635:7:vTaskDelete	40	static
 tasks.c:689:7:vTaskDelayUntil	32	static
 tasks.c:765:7:vTaskDelay	24	static
 tasks.c:877:25:uxTaskPriorityGet	24	static
-tasks.c:899:7:vTaskPrioritySet	32	static
+tasks.c:899:7:vTaskPrioritySet	40	static
 tasks.c:1030:7:vTaskSuspend	24	static
 tasks.c:1091:23:xTaskIsTaskSuspended	24	static
 tasks.c:1125:7:vTaskResume	24	static
@@ -39,5 +39,6 @@ tasks.c:2552:24:prvTaskCheckFreeStackSpace	24	static
 tasks.c:2572:25:uxTaskGetStackHighWaterMark	32	static
 tasks.c:2600:14:prvDeleteTCB	16	static
 tasks.c:2618:14:xTaskGetCurrentTaskHandle	16	static
-tasks.c:2663:7:vTaskPriorityInherit	24	static
-tasks.c:2705:7:vTaskPriorityDisinherit	24	static
+tasks.c:2635:16:xTaskGetSchedulerState	16	static
+tasks.c:2663:7:vTaskPriorityInherit	32	static
+tasks.c:2705:7:vTaskPriorityDisinherit	32	static

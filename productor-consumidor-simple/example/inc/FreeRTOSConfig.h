@@ -169,4 +169,13 @@ standard names - or at least those used in the unmodified vector table. */
 #define xPortPendSVHandler PendSV_Handler
 #define xPortSysTickHandler SysTick_Handler
 
+
 #endif /* FREERTOS_CONFIG_H */
+
+
+/* Integrates the Tracealyzer recorder with FreeRTOS */
+#if ( configUSE_TRACE_FACILITY == 1 )
+	#include "trcRecorder.h"
+#endif
+
+

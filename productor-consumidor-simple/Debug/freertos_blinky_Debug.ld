@@ -6,7 +6,7 @@
  * Generated linker script file for LPC1769
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v11.1.0 [Build 3209] [2019-12-12] on Feb 20, 2020 11:07:37 AM
+ * MCUXpresso IDE v11.1.0 [Build 3209] [2019-12-12] on Feb 27, 2020 7:29:06 PM
  */
 
 INCLUDE "freertos_blinky_Debug_library.ld"
@@ -49,7 +49,6 @@ SECTIONS
     .text : ALIGN(4)
     {
        *(.text*)
-       KEEP(*/tasks.o(.rodata*))  /* FreeRTOS Debug Config */
        *(.rodata .rodata.* .constdata .constdata.*)
        . = ALIGN(4);
     } > MFlash512
