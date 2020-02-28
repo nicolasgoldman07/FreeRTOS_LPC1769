@@ -1,4 +1,0 @@
-P-C-individual.c:11:13:prvSetupHardware	8	static
-P-C-individual.c:19:13:producer	32	static
-P-C-individual.c:39:13:consumer	16	static
-P-C-individual.c:62:5:main	24	static
